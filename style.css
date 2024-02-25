@@ -34,9 +34,18 @@ body{
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 10px;
-
+    /* overflow: hidden; Prevent overflow */
+  white-space: nowrap; /* Prevent wrapping */
+  /* text-overflow: ellipsis; Show ellipsis for overflowed text */
+    /* direction: rtl; */
     
+    overflow-x: auto;
     /* width: calc(50% - 10px); */
+  }
+
+  .innerDisplay{
+    /* overflow: hidden; */
+    overflow-x: auto;
   }
   
   .buttons {
